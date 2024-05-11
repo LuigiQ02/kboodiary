@@ -49,7 +49,12 @@ header {
     display: block;
     width: 14px;
     height: 16px;
-    fill: #000;
+}
+
+.social__lists svg:hover {
+    fill: grey;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .header__title {
@@ -76,4 +81,38 @@ header {
     font-style: normal;
     letter-spacing: 0.32px;
     line-height: 23px;
+}
+
+.header__nav__container {
+    background-color: black;
+    width: 818px;
+    margin: auto;
+    height: 100%;
+    padding: 11px;
+}
+
+.nav__list a:hover {
+    color: whitesmoke;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.nav__list a {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Playfair", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
 }
