@@ -58,6 +58,7 @@ header {
 }
 
 .header__title {
+    cursor: pointer;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -609,8 +610,80 @@ a {
     gap: 30px;
 }
 
+.content__border1 {
+    background-color: white;
+    width: 818px;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
+.content__third-art {}
 
+.content__third-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content__third-img {
+    width: 250px;
+    height: 60%;
+    object-fit: contain;
+}
+
+.content__third-h3 {
+    font-family: "Playfair", serif;
+    font-size: 15px;
+    font-style: bold;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+    background-color: white;
+}
+
+.content__third-p {
+    font-family: "Playfair", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+}
+
+.content__third-part2 {
+    background-color: white;
+    width: 818px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.content__third-part2-list {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content__third-part2-h3 {
+    font-family: "Playfair", serif;
+    font-size: 15px;
+    font-style: bold;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+    background-color: white;
+}
+
+.content__third-part2-p {
+    font-family: "Playfair", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+}
 
 /* Form Article Section */
 img {
