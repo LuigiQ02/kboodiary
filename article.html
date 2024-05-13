@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
-      <header class="article__header">
+  <header class="article__header">
     <div class="header__container">
       <div class="social__icons">
         <ul class="social__items">
@@ -39,7 +39,7 @@
     </div>
     <div class="header__title">
       <h1 class="header__h1">KBOODIARY</h1>
-      <p class="header__p">A website dedicated for korean culture.</p>
+      <p class="header__p">A website dedicated for Korean culture.</p>
     </div>
   </header>
   <div class="article__nav">
@@ -54,8 +54,121 @@
     </nav>
   </div>
   <main>
-    <section>
-      
+    <section class="content__section">
+      <div class="container content__container">
+        <div class="content__container-inner-art">
+          <ul class="content__list">
+            <li class="content__item-art">
+              <div class="content__header">
+                <p class="content__date">
+                  <span class="content__date-span">6</span>Oct
+                </p>
+                <a class="content__main-header-art" href="">
+                  <h2 class="content__title">Taking Over Street Fashion</h2>
+                  <p class="content__author">
+                    by <span class="author__span">Susanna Roberts</span>
+                  </p>
+                  <p class="content__tags">Culture</p>
+                </a>
+              </div>
+              <img class="content__img" src="https://placehold.co/350x250" alt="placeholder" />
+              <p class="content__description-art">
+                <span class="content__l">L</span>orem ipsum dolor sit amet,
+                lacus eu erat integer bibendum rutrum, sed arcu molestie, in
+                quis ornare, rhoncus sceleris nam feugiat nibh leo. Ac
+                suspendisse turpis posuere, cursus fames eu eget dolorem
+                sapien. Eget cras urna nam, ultricies proin interdum facilisis
+                arcu, eget sed quam enim nam, sit pede nonummy viverra dolor
+                sed orci, nec feugiat donec phasellus. Arcu litora gravida,
+                eget ac, magna in aut proin congue, ac at justo wisi.
+                Adipiscing nam et ac at ipsum. Ac id sit pharetra lorem
+                ultrices, cum erat arcu non urna amet sodales, mauris odio,
+                vestibulum nulla quisque ac metus, quam nostra a qui.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <h3 class="content__art-h3">
+          This section contains many common flower varieties that can often be
+          found at your local professional florist. With an expanding global
+          market and advanced technology.
+        </h3>
+        <div class="content__second-art">
+          <img class="content__second-img" src="images/bigmouth.jpg" alt="bigmouth" />
+          <div class="content__div-text">
+            <p class="content__second-p">
+              Lorem ipsum dolor sit amet, lacus eu erat integer bibendum rutrum,
+              sed arcu molestie, in quis ornare, rhoncus sceleris nam feugiat
+              nibh leo. Ac suspendisse turpis posuere, cursus fames eu eget
+              dolorem sapien. Eget cras urna nam, ultricies proin interdum
+              facilisis arcu, eget sed quam enim nam, sit pede nonummy viverra
+              dolor sed orci, nec feugiat donec phasellus. Arcu litora gravida,
+              eget ac, magna in aut proin congue, ac at justo wisi. Adipiscing
+              nam et ac at ipsum. Ac id sit pharetra lorem ultrices, cum erat
+              arcu non urna amet sodales, mauris odio, vestibulum nulla quisque
+              ac metus, quam nostra a qui. Risus atque amet dignissim, est elit.
+              Eget sed quam enim nam, sit pede nonummy viverra dolor. Eget sed
+              quam enim nam, sit pede nonummy viverra dolor.
+            </p>
+            <h3 class="content__second-h3">
+              This section contains many common flower varieties that can often be found at your local professional florist. With an expanding global market and advanced.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section>
+      <div class="reply__inner-container">
+        <h2 class="reply__header">Leave a reply</h2>
+        <form action="" class="reply__form">
+          <label class="reply__comment-box">
+            <textarea
+              class="comment-box__input"
+              type="text"
+              name="user-comment"
+              placeholder="Write your comment here..."
+            ></textarea>
+          </label>
+          <div class="form__user-info">
+            <label class="reply__name-box">
+              <input
+                class="form-input name-box__input"
+                type="text"
+                name="user-name"
+                placeholder="Your full name"
+              />
+            </label>
+            <label class="reply__email-box">
+              <input
+                class="form-input email-box__input"
+                type="text"
+                name="user-comment"
+                placeholder="E-mail address"
+              />
+            </label>
+            <label class="reply__website-box">
+              <input
+                class="form-input website-box__input"
+                type="text"
+                name="user-website"
+                placeholder="Website"
+              />
+            </label>
+          </div>
+          <label class="reply__checkbox">
+            <input
+              class="reply__checkbox-input"
+              type="checkbox"
+              name="user-save-info"
+            />
+            <span class="checkbox-input"
+              >Save my name, email, and website in this browser for the next
+              time I comment.</span
+            >
+          </label>
+          <button class="reply__form-submit" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
   </main>
 </body>
